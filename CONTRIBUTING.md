@@ -9,12 +9,12 @@
 - вести историю изменений;
 - оформлять свои решения профессионально.
 
-Подробнее про git и PR
+РЕСУРСЫ про git и PR
 
-1. Как зарегистрироваться на GitHub
-2. Как работать с git
-3. Как сделать PR на GitHub
-4. Как работать с GitHub по ssh-key
+1. [Как зарегистрироваться на GitHub](https://www.youtube.com/watch?v=I1M5aSadK_I)
+2. [Как работать с git](https://www.youtube.com/watch?v=XuFaQSW79rM&t=2s)
+3. [Как сделать PR на GitHub](https://www.youtube.com/watch?v=veMDnBt30pk)
+4. [Как работать с GitHub по ssh-key](https://habr.com/ru/articles/755036/)
 5. [Что такое Git flow и когда использовать?](https://www.youtube.com/watch?v=umiT0yIsSrc)
 
 ---
@@ -50,6 +50,9 @@ git clone https://github.com/ВАШ_GITHUB/Linux_education.git
 cd Linux_education
 ```
 
+Примечание: лучше выбрать клонирование через ssh (чтобы каждый раз не вводить логин и пароль), тогда ссылка будет иметь вид: git@github.com:alphaserver777/Linux_education.git
+Но для этого сначала нужно сгенерировать и сохранить на GitHub аккаунте свой ssh ключ. Подсказка на 35 строке.
+
 ---
 
 # Шаг 3. Создайте ветку для домашнего задания
@@ -81,7 +84,7 @@ hw-04-links-YOUR_NAME
 
 # Шаг 4. Выполните задание
 
-Создайте необходимые файлы и внесите решение.
+Создайте необходимые файлы (если того требует задание) или запишите ответ сразу после самого задания.
 
 Структура решения может выглядеть так:
 
@@ -118,7 +121,7 @@ git commit -m "HW-04: работа с файлами и каталогами"
 git push origin hw-04-files-YOUR_NAME
 ```
 
-Примечание - удобнее сделать это через ssh ключ
+Примечание - удобнее сделать это через ssh ключ.
 
 ```bash
 git remote set-url origin git@github.com:ВАШ-РЕПОЗИТОРИЙ/Linux_education.git
