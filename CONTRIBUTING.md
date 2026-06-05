@@ -15,7 +15,7 @@
 2. Как работать с git
 3. Как сделать PR на GitHub
 4. Как работать с GitHub по ssh-key
-5. [![Что такое Git flow и когда использовать?](https://www.youtube.com/watch?v=umiT0yIsSrc)]
+5. [Что такое Git flow и когда использовать?](https://www.youtube.com/watch?v=umiT0yIsSrc)
 
 ---
 
@@ -116,6 +116,12 @@ git commit -m "HW-04: работа с файлами и каталогами"
 
 ```bash
 git push origin hw-04-files-YOUR_NAME
+```
+
+Примечание - удобнее сделать это через ssh ключ
+
+```bash
+git remote set-url origin git@github.com:ВАШ-РЕПОЗИТОРИЙ/Linux_education.git
 ```
 
 ---
