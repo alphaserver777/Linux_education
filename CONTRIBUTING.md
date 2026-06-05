@@ -15,7 +15,7 @@
 2. Как работать с git
 3. Как сделать PR на GitHub
 4. Как работать с GitHub по ssh-key
-5. ![Что такое Git flow и когда использовать?](https://www.youtube.com/watch?v=umiT0yIsSrc)]
+5. [![Что такое Git flow и когда использовать?](https://www.youtube.com/watch?v=umiT0yIsSrc)]
 
 ---
 
