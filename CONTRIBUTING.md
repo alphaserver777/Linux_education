@@ -36,7 +36,7 @@ https://github.com/alphaserver777/Linux_education
 Ваш форк:
 
 ```text
-https://github.com/ВАШ_GITHUB/Linux_education
+https://github.com/ВАШ_ГИТХАБ/Linux_education
 ```
 
 ---
