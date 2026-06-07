@@ -1,0 +1,16 @@
+silverhorn㉿silverhorn)-[~]  
+└─$ cd /var                
+                                                                                                         
+┌──(silverhorn㉿silverhorn)-[/var]  
+└─$ cd /tmp    
+                                                                                                         
+┌──(silverhorn㉿silverhorn)-[/tmp]  
+└─$ cd -      
+/var  
+                                                                                                         
+┌──(silverhorn㉿silverhorn)-[/var]  
+└─$ cd -  
+/tmp
+
+cd - возвращает в предыдущий католог
+удобно для администратора для быстрого перемещения
