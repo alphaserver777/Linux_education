@@ -1,0 +1,23 @@
+─(silverhorn㉿silverhorn)-[~]
+└─$ pwd     
+/home/silverhorn
+
+─(silverhorn㉿silverhorn)-[~]
+└─$ cd /usr 
+                                                                                                       
+┌──(silverhorn㉿silverhorn)-[/usr]
+└─$ pwd
+/usr
+
+
+(silverhorn㉿silverhorn)-[/usr/bin]
+└─$ pwd
+/usr/bin                                                                                                       
+┌──(silverhorn㉿silverhorn)-[/usr/bin]
+ 
+                                                                                                
+
+
+команда pwd показывает текущий путь от корня до места, где сейчас находишься
+текущий рабочий каталог - область (папка) в которой сейчас находишься
+после входа в систему пользователь попадает в свой домашний каталог потому что это его область пространства по умолчанию
