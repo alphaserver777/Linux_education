@@ -1,0 +1,368 @@
+(silverhorn㉿silverhorn)-[~]  
+└─$ ls /home    
+lost+found  school  silverhorn  
+                                                                                                         
+┌──(silverhorn㉿silverhorn)-[~]  
+└─$ ls -l /home    
+итого 24  
+drwx------  2 root       root       16384 фев  1 10:52 lost+found  
+drwxr-xr-x  5 admin1     admin       4096 мая 21 21:46 school  
+drwx------ 42 silverhorn silverhorn  4096 июн  4 19:18 silverhorn
+
+silverhorn㉿silverhorn)-[~]  
+└─$ ls /usr       
+bin    i686-w64-mingw32  lib    libexec  sbin   src                 x86_64-w64-mingw32ucrt  
+games  include           lib64  local    share  x86_64-w64-mingw32
+
+
+(silverhorn㉿silverhorn)-[~]  
+└─$ ls -l /usr    
+итого 180  
+drwxr-xr-x   2 root       root       86016 июн  2 21:02 bin  
+drwxr-xr-x   2 root       root        4096 мая  8 22:34 games  
+drwxr-xr-x   3 root       root        4096 фев  1 18:53 i686-w64-mingw32  
+drwxr-xr-x 111 root       root       20480 мая 16 10:11 include  
+drwxr-xr-x  97 root       root        4096 мая 22 23:51 lib  
+drwxr-xr-x   2 root       root        4096 мар  7 09:54 lib64  
+drwxr-xr-x  21 root       root       12288 мая 19 21:39 libexec  
+drwxr-xr-x  12 root       root        4096 фев  1 11:02 local  
+drwxr-xr-x   2 root       root       16384 мая 26 19:12 sbin  
+drwxrwxr-x 321 silverhorn silverhorn 12288 мая 26 19:15 share  
+drwxr-xr-x   9 root       root        4096 мая 22 23:51 src  
+drwxr-xr-x   3 root       root        4096 фев  1 18:53 x86_64-w64-mingw32  
+drwxr-xr-x   3 root       root        4096 фев  1 18:53 x86_64-w64-mingw32ucrt
+
+
+(silverhorn㉿silverhorn)-[~]  
+└─$ ls /etc      
+adduser.conf                   fwupd            ModemManager      sensors.d  
+adjtime                        gai.conf         modprobe.d        services  
+alsa                           gdb              modules           sgml  
+alternatives                   ghostscript      modules-load.d    shadow  
+anydesk                        glvnd            motd              shadow-  
+apache2                        GNUstep          mtab              shells  
+apparmor                       gprofng.rc       netconfig         signon-ui  
+apparmor.d                     groff            network           skel  
+apport                         group            NetworkManager    smartd.conf  
+apt                            group-           networks          smartmontools  
+assistant                      grub.d           nfs.conf          speech-dispatcher  
+bash.bashrc                    gshadow          nfs.conf.d        ssh  
+bash_completion                gshadow-         nftables.conf     ssl  
+bash_completion.d              gss              nsswitch.conf     subgid  
+bindresvport.blacklist         gtk-2.0          openal            subgid-  
+binfmt.d                       gtk-3.0          openni2           subuid  
+bluetooth                      host.conf        opt               subuid-  
+ca-certificates                hostname         os-release        sudo.conf  
+ca-certificates.conf           hosts            PackageKit        sudoers  
+ca-certificates.conf.dpkg-old  hosts.allow      pam.conf          sudoers.d  
+catdocrc                       hosts.deny       pam.d             sudo_logsrvd.conf  
+chatscripts                    idmapd.conf      paperspecs        supercat  
+chromium                       ifplugd          passwd            sv  
+cloud                          ImageMagick-7    passwd-           sysctl.d  
+console-setup                  init.d           perl              systemd  
+credstore                      initramfs-tools  pki               terminfo  
+credstore.encrypted            inputrc          plymouth          timidity  
+cron.d                         insserv.conf.d   polkit-1          tmpfiles.d  
+cron.daily                     issue            ppp               tpm2-tss  
+cron.hourly                    issue.net        profile           ts.conf  
+cron.monthly                   kali-menu        profile.d         ucf.conf  
+crontab                        kernel           protocols         udev  
+cron.weekly                    kernel-img.conf  pulse             udisks2  
+cron.yearly                    keyutils         python3           ufw  
+dbus-1                         ldap             python3.13        updatedb.conf  
+dconf                          ld.so.cache      rc0.d             update-motd.d  
+debconf.conf                   ld.so.conf       rc1.d             UPower  
+debian_version                 ld.so.conf.d     rc2.d             usb_modeswitch.conf  
+debuginfod                     libao.conf       rc3.d             usb_modeswitch.d  
+default                        libaudit.conf    rc4.d             vbox  
+deluser.conf                   libblockdev      rc5.d             vconsole.conf  
+depmod.d                       libnl-3          rc6.d             vdpau_wrapper.cfg  
+dhcp                           lightdm          rc.local          vim  
+dhcpcd.conf                    lighttpd         rcS.d             vulkan  
+dictionaries-common            locale.conf      request-key.conf  wgetrc  
+dkms                           locale.gen       request-key.d     wpa_supplicant  
+dpkg                           localtime        resolv.conf       X11  
+e2scrub.conf                   logcheck         rmt               xattr.conf  
+emacs                          login.defs       rpc               xdg  
+environment                    logrotate.conf   runit             xemacs21  
+environment.d                  logrotate.d      rustdesk          xml  
+ethertypes                     machine-id       samba             xrdp  
+firefox-esr                    magic            sddm              zsh  
+firejail                       magic.mime       sddm.conf.d       zsh_command_not_found  
+fonts                          manpath.config   security  
+fstab                          mime.types       selinux  
+fuse.conf                      mke2fs.conf      sensors3.conf  
+                                                                                                         
+┌──(silverhorn㉿silverhorn)-[~]  
+└─$ ls -l /etc    
+итого 1248  
+-rw-r--r--  1 root root     3824 мар 28 12:16 adduser.conf  
+-rw-r--r--  1 root root       46 фев  1 11:02 adjtime  
+drwxr-xr-x  3 root root     4096 фев  1 18:53 alsa  
+drwxr-xr-x  2 root root     4096 мая 25 23:37 alternatives  
+drwxr-xr-x  3 root root     4096 мая 25 23:39 anydesk  
+drwxr-xr-x  3 root root     4096 фев  1 11:00 apache2  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 apparmor  
+drwxr-xr-x  8 root root    12288 мая 15 21:30 apparmor.d  
+drwxr-xr-x  3 root root     4096 фев  6 12:21 apport  
+drwxr-xr-x  8 root root     4096 мая 15 20:36 apt  
+drwxr-xr-x  3 root root     4096 мая 23 14:12 assistant  
+-rw-r--r--  1 root root     2553 сен  3  2025 bash.bashrc  
+-rw-r--r--  1 root root       45 сен 29  2025 bash_completion  
+drwxr-xr-x  2 root root     4096 апр 20 20:58 bash_completion.d  
+-rw-r--r--  1 root root      367 июл 26  2025 bindresvport.blacklist  
+drwxr-xr-x  2 root root     4096 ноя 17  2025 binfmt.d  
+drwxr-xr-x  2 root root     4096 апр 20 20:58 bluetooth  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 ca-certificates  
+-rw-r--r--  1 root root     6631 апр 20 20:57 ca-certificates.conf  
+-rw-r--r--  1 root root     6422 фев  1 11:01 ca-certificates.conf.dpkg-old  
+-rw-r--r--  1 root root      119 июн 16  2025 catdocrc  
+drwxr-s---  2 root dip      4096 мая 21 18:17 chatscripts  
+drwxr-xr-x  3 root root     4096 фев  1 11:01 chromium  
+drwxr-xr-x  3 root root     4096 фев  1 11:00 cloud  
+drwxr-xr-x  2 root root     4096 апр 20 20:58 console-setup  
+drwx------  2 root root     4096 ноя 17  2025 credstore  
+drwx------  2 root root     4096 ноя 17  2025 credstore.encrypted  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 cron.d  
+drwxr-xr-x  2 root root     4096 мая 25 23:37 cron.daily  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 cron.hourly  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 cron.monthly  
+-rw-r--r--  1 root root     1042 окт  5  2025 crontab  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 cron.weekly  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 cron.yearly  
+drwxr-xr-x  4 root root     4096 фев  1 10:59 dbus-1  
+drwxr-xr-x  4 root root     4096 фев  1 11:00 dconf  
+-rw-r--r--  1 root root     2967 мар 10  2025 debconf.conf  
+-rw-r--r--  1 root root       13 ноя 10  2025 debian_version  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 debuginfod  
+drwxr-xr-x  3 root root     4096 мая 26 19:12 default  
+-rw-r--r--  1 root root     1845 мар 28 12:16 deluser.conf  
+drwxr-xr-x  2 root root     4096 мая 13  2025 depmod.d  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 dhcp  
+-rw-r--r--  1 root root     1289 янв  7 00:34 dhcpcd.conf  
+drwxr-xr-x  2 root root     4096 апр 20 20:59 dictionaries-common  
+drwxr-xr-x  3 root root     4096 мая 22 23:51 dkms  
+drwxr-xr-x  4 root root     4096 апр 20 20:58 dpkg  
+-rw-r--r--  1 root root      685 июл 30  2025 e2scrub.conf  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 emacs  
+-rw-r--r--  1 root root      653 фев  1 11:01 environment  
+drwxr-xr-x  2 root root     4096 мая  8 22:36 environment.d  
+-rw-r--r--  1 root root     1936 мар 16  2025 ethertypes  
+drwxr-xr-x  4 root root     4096 мая 15 20:38 firefox-esr  
+drwxr-xr-x  2 root root    81920 мая 15 21:30 firejail  
+drwxr-xr-x  4 root root     4096 мар  7 09:56 fonts  
+-rw-r--r--  1 root root      988 фев  1 10:52 fstab  
+-rw-r--r--  1 root root      725 авг 20  2025 fuse.conf  
+drwxr-xr-x  4 root root     4096 мая  8 22:37 fwupd  
+-rw-r--r--  1 root root     2584 янв 28  2025 gai.conf  
+drwxr-xr-x  3 root root     4096 апр 20 20:58 gdb  
+drwxr-xr-x  4 root root     4096 фев  1 10:59 ghostscript  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 glvnd  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 GNUstep  
+-rw-r--r--  1 root root     3986 фев 18 11:14 gprofng.rc  
+drwxr-xr-x  2 root root     4096 фев  1 11:19 groff  
+-rw-r--r--  1 root root     1355 мая 21 22:43 group  
+-rw-r--r--  1 root root     1346 мая 21 22:43 group-  
+drwxr-xr-x  2 root root     4096 мая  8 22:37 grub.d  
+-rw-r-----  1 root shadow   1167 мая 21 22:43 gshadow  
+-rw-r-----  1 root shadow   1158 мая 21 22:43 gshadow-  
+drwxr-xr-x  3 root root     4096 фев  1 10:52 gss  
+drwxr-xr-x  2 root root     4096 мая 23 14:12 gtk-2.0  
+drwxr-xr-x  2 root root     4096 апр 20 20:57 gtk-3.0  
+-rw-r--r--  1 root root        9 ноя 10  2025 host.conf  
+-rw-r--r--  1 root root       11 фев  1 10:52 hostname  
+-rw-r--r--  1 root root      212 фев  1 10:52 hosts  
+-rw-r--r--  1 root root      411 фев  1 11:01 hosts.allow  
+-rw-r--r--  1 root root      711 фев  1 11:01 hosts.deny  
+-rw-r--r--  1 root root      171 сен 14  2025 idmapd.conf  
+drwxr-xr-x  3 root root     4096 фев  1 11:01 ifplugd  
+drwxr-xr-x  2 root root     4096 апр 20 20:57 ImageMagick-7  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 init.d  
+drwxr-xr-x  5 root root     4096 фев  1 10:52 initramfs-tools  
+-rw-r--r--  1 root root     1875 сен  6  2025 inputrc  
+drwxr-xr-x  2 root root     4096 апр 20 20:57 insserv.conf.d  
+-rw-r--r--  1 root root       30 ноя 10  2025 issue  
+-rw-r--r--  1 root root       23 ноя 10  2025 issue.net  
+drwxr-xr-x  3 root root     4096 фев  1 11:00 kali-menu  
+drwxr-xr-x  8 root root     4096 мая 22 23:51 kernel  
+-rw-r--r--  1 root root      144 фев  1 11:02 kernel-img.conf  
+drwxr-xr-x  2 root root     4096 апр 13  2025 keyutils  
+drwxr-xr-x  2 root root     4096 фев  1 11:01 ldap  
+-rw-r--r--  1 root root   143635 мая 25 22:59 ld.so.cache  
+-rw-r--r--  1 root root       34 июл 26  2025 ld.so.conf  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 ld.so.conf.d  
+-rw-r--r--  1 root root       26 фев 21  2024 libao.conf  
+-rw-r--r--  1 root root      191 сен 17  2025 libaudit.conf  
+drwxr-xr-x  3 root root     4096 фев  1 11:00 libblockdev  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 libnl-3  
+drwxr-xr-x  3 root root     4096 мая 15 20:38 lightdm  
+drwxr-xr-x  4 root root     4096 фев  1 11:01 lighttpd  
+-rw-r--r--  1 root root       74 фев  1 10:52 locale.conf  
+-rw-r--r--  1 root root     9647 мар  7 09:56 locale.gen  
+lrwxrwxrwx  1 root root       33 фев  1 10:52 localtime -> /usr/share/zoneinfo/Europe/Moscow  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 logcheck  
+-rw-r--r--  1 root root     4687 апр  2 20:44 login.defs  
+-rw-r--r--  1 root root      494 июл 14  2024 logrotate.conf  
+drwxr-xr-x  2 root root     4096 мая 21 18:17 logrotate.d  
+-r--r--r--  1 root root       33 фев  1 10:52 machine-id  
+-rw-r--r--  1 root root      111 апр 11  2025 magic  
+-rw-r--r--  1 root root      111 апр 11  2025 magic.mime  
+-rw-r--r--  1 root root     5230 мая  2  2025 manpath.config  
+-rw-r--r--  1 root root    78419 окт 14  2025 mime.types  
+-rw-r--r--  1 root root      813 июл 30  2025 mke2fs.conf  
+drwxr-xr-x  5 root root     4096 фев  1 11:01 ModemManager  
+drwxr-xr-x  2 root root     4096 мая 22 23:51 modprobe.d  
+-rw-r--r--  1 root root      212 фев  1 10:52 modules  
+drwxr-xr-x  2 root root     4096 апр 20 20:54 modules-load.d  
+-rw-r--r--  1 root root      282 ноя 10  2025 motd  
+lrwxrwxrwx  1 root root       19 фев  1 11:04 mtab -> ../proc/self/mounts  
+-rw-r--r--  1 root root      767 мар 18  2025 netconfig  
+drwxr-xr-x  7 root root     4096 фев  1 10:52 network  
+drwxr-xr-x  8 root root     4096 мая 15 20:39 NetworkManager  
+-rw-r--r--  1 root root       60 фев  1 10:52 networks  
+-rw-r--r--  1 root root     1564 мая  8 22:35 nfs.conf  
+drwxr-xr-x  2 root root     4096 сен 24  2025 nfs.conf.d  
+-rwxr-xr-x  1 root root      243 июн 10  2025 nftables.conf  
+-rw-r--r--  1 root root      526 фев  1 11:01 nsswitch.conf  
+drwxr-xr-x  2 root root     4096 фев 18 18:13 openal  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 openni2  
+drwxr-xr-x  4 root root     4096 фев  1 11:01 opt  
+lrwxrwxrwx  1 root root       21 мар  5 13:57 os-release -> ../usr/lib/os-release  
+drwxr-xr-x  2 root root     4096 мая 16 09:54 PackageKit  
+-rw-r--r--  1 root root      552 июн 29  2025 pam.conf  
+drwxr-xr-x  2 root root     4096 мая 25 22:59 pam.d  
+-rw-r--r--  1 root root     1309 мар 28  2025 paperspecs  
+-rw-r--r--  1 root root     2507 мая 21 21:30 passwd  
+-rw-r--r--  1 root root     2462 мая 21 21:30 passwd-  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 perl  
+drwxr-xr-x  4 root root     4096 фев  1 11:00 pki  
+drwxr-xr-x  2 root root     4096 мая  8 22:36 plymouth  
+drwxr-xr-x  3 root root     4096 фев  1 11:00 polkit-1  
+drwxr-xr-x  8 root dip      4096 мая 21 18:17 ppp  
+-rw-r--r--  1 root root      828 ноя 10  2025 profile  
+drwxr-xr-x  2 root root     4096 мая 15 20:38 profile.d  
+-rw-r--r--  1 root root     3144 окт 18  2022 protocols  
+drwxr-xr-x  3 root root     4096 мая  8 22:36 pulse  
+drwxr-xr-x  2 root root     4096 фев  1 11:01 python3  
+drwxr-xr-x  2 root root     4096 мар  7 09:56 python3.13  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 rc0.d  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 rc1.d  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 rc2.d  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 rc3.d  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 rc4.d  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 rc5.d  
+drwxr-xr-x  2 root root     4096 мая 26 19:12 rc6.d  
+-rwxr-xr-x  1 root root       24 мая 21 18:25 rc.local  
+drwxr-xr-x  2 root root     4096 фев  1 11:18 rcS.d  
+-rw-r--r--  1 root root     1787 апр 13  2025 request-key.conf  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 request-key.d  
+-rw-r--r--  1 root root       68 июн  4 17:35 resolv.conf  
+lrwxrwxrwx  1 root root       13 фев 19 23:05 rmt -> /usr/sbin/rmt  
+-rw-r--r--  1 root root      911 окт 18  2022 rpc  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 runit  
+drwxr-xr-x  2 root root     4096 мая 25 22:59 rustdesk  
+drwxr-xr-x  2 root root     4096 мая 15 20:38 samba  
+drwxr-xr-x  2 root root     4096 апр 20 20:57 sddm  
+drwxr-xr-x  2 root root     4096 мая 22 23:09 sddm.conf.d  
+drwxr-xr-x  4 root root     4096 мая  8 22:33 security  
+drwxr-xr-x  2 root root     4096 мая  8 22:34 selinux  
+-rw-r--r--  1 root root    10749 апр 12  2025 sensors3.conf  
+drwxr-xr-x  2 root root     4096 фев  1 11:01 sensors.d  
+-rw-r--r--  1 root root    12990 мар 16  2025 services  
+drwxr-xr-x  3 root root     4096 фев  1 11:02 sgml  
+-rw-r-----  1 root shadow   1595 мая 21 21:31 shadow  
+-rw-r-----  1 root shadow   1421 мая 21 21:30 shadow-  
+-rw-r--r--  1 root root      154 мая 15 20:39 shells  
+drwxr-xr-x  3 root root     4096 фев  1 11:00 signon-ui  
+drwxr-xr-x  5 root root     4096 мая 15 20:38 skel  
+-rw-r--r--  1 root root     6136 окт 19  2025 smartd.conf  
+drwxr-xr-x  4 root root     4096 фев  1 11:01 smartmontools  
+drwxr-xr-x  4 root root     4096 апр 20 20:58 speech-dispatcher  
+drwxr-xr-x  4 root root     4096 мая 15 20:38 ssh  
+drwxr-xr-x  4 root root     4096 мая 15 20:38 ssl  
+-rw-r--r--  1 root root      132 мая 21 21:30 subgid  
+-rw-r--r--  1 root root      110 мая 21 21:30 subgid-  
+-rw-r--r--  1 root root      132 мая 21 21:30 subuid  
+-rw-r--r--  1 root root      110 мая 21 21:30 subuid-  
+-rw-r--r--  1 root root     4354 авг 17  2025 sudo.conf  
+-r--r-----  1 root root     1908 мая 23 14:12 sudoers  
+drwxr-xr-x  2 root root     4096 мая 23 14:12 sudoers.d  
+-rw-r--r--  1 root root     9804 авг 17  2025 sudo_logsrvd.conf  
+drwxr-xr-x  2 root root     4096 мая  8 22:35 supercat  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 sv  
+drwxr-xr-x  2 root root     4096 мая  8 22:36 sysctl.d  
+drwxr-xr-x  5 root root     4096 апр 20 20:57 systemd  
+drwxr-xr-x  2 root root     4096 фев  1 11:15 terminfo  
+drwxr-xr-x  2 root root     4096 фев  1 12:13 timidity  
+drwxr-xr-x  2 root root     4096 мая 21 18:30 tmpfiles.d  
+drwxr-xr-x  3 root root     4096 мар 12 21:02 tpm2-tss  
+-rw-r--r--  1 root root      938 сен  9  2019 ts.conf  
+-rw-r--r--  1 root root     1259 мая 19  2025 ucf.conf  
+drwxr-xr-x  4 root root     4096 апр 20 20:57 udev  
+drwxr-xr-x  2 root root     4096 мар 12 21:03 udisks2  
+drwxr-xr-x  3 root root     4096 фев  1 10:59 ufw  
+-rw-r--r--  1 root root      588 янв 14 01:51 updatedb.conf  
+drwxr-xr-x  2 root root     4096 мая  8 22:37 update-motd.d  
+drwxr-xr-x  3 root root     4096 апр 20 20:58 UPower  
+-rw-r--r--  1 root root     1523 сен 23  2025 usb_modeswitch.conf  
+drwxr-xr-x  2 root root     4096 мая 24  2024 usb_modeswitch.d  
+drwxr-xr-x  2 root root     4096 мая 19 22:12 vbox  
+lrwxrwxrwx  1 root root       16 фев  1 10:52 vconsole.conf -> default/keyboard  
+-rw-r--r--  1 root root       51 мар  7  2022 vdpau_wrapper.cfg  
+drwxr-xr-x  2 root root     4096 мая 15 20:39 vim  
+drwxr-xr-x  5 root root     4096 фев  1 10:59 vulkan  
+-rw-r--r--  1 root root     4942 мар  8  2025 wgetrc  
+drwxr-xr-x  2 root root     4096 мая 15 20:38 wpa_supplicant  
+drwxr-xr-x 10 root root     4096 фев  1 11:19 X11  
+-rw-r--r--  1 root root      681 фев 21  2025 xattr.conf  
+drwxr-xr-x 16 root root     4096 мая 16 09:54 xdg  
+drwxr-xr-x  3 root root     4096 фев  1 11:16 xemacs21  
+drwxr-xr-x  2 root root     4096 апр 20 20:58 xml  
+drwxr-xr-x  2 root root     4096 фев  1 11:01 xrdp  
+drwxr-xr-x  2 root root     4096 фев  1 11:01 zsh  
+-rw-r--r--  1 root root      460 янв 20  2023 zsh_command_not_found
+
+
+
+─(silverhorn㉿silverhorn)-[~]  
+└─$ ls /tmp    
+assistant  
+bfAssist_ND2B87860-F836-421E-B3CD-32268C2E0AAB.lock  
+bfAssist_VD2B87860-F836-421E-B3CD-32268C2E0AAB_1B5D700C1F6FFF8141F603F732FBA924.lock  
+plasma-csd-generator.mvaeHp  
+remmina_log_file.log  
+scoped_dirFqRCct  
+sddm-auth-de52eb25-09d0-453f-8df2-5cd046f9ead9  
+systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-fwupd.service-NOPd0a  
+systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-ModemManager.service-9v5j8x  
+systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-polkit.service-1Lx22k  
+systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-power-profiles-daemon.service-F0gmvK  
+systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-systemd-logind.service-EDUGtw  
+systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-upower.service-QTEDbw  
+xauth_lkEnxp  
+                                                                                                         
+┌──(silverhorn㉿silverhorn)-[~]  
+└─$ ls -l /tmp    
+итого 8  
+drwxrwxrwx 5 root       root       120 июн  4 17:35 assistant  
+-rwxrwxrwx 1 root       root         0 июн  4 17:35 bfAssist_ND2B87860-F836-421E-B3CD-32268C2E0AAB.lock  
+-rwxrwxrwx 1 silverhorn silverhorn   0 июн  4 17:35 bfAssist_VD2B87860-F836-421E-B3CD-32268C2E0AAB_1B5D  
+700C1F6FFF8141F603F732FBA924.lock  
+drwx------ 2 silverhorn silverhorn  40 июн  4 17:35 plasma-csd-generator.mvaeHp  
+-rw-rw-r-- 1 silverhorn silverhorn  35 июн  4 17:35 remmina_log_file.log  
+drwx------ 2 silverhorn silverhorn  80 июн  4 19:19 scoped_dirFqRCct  
+srwxr-xr-x 1 root       root         0 июн  4 17:35 sddm-auth-de52eb25-09d0-453f-8df2-5cd046f9ead9  
+drwx------ 3 root       root        60 июн  4 17:38 systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-fw  
+upd.service-NOPd0a  
+drwx------ 3 root       root        60 июн  4 17:35 systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-Mo  
+demManager.service-9v5j8x  
+drwx------ 3 root       root        60 июн  4 17:35 systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-po  
+lkit.service-1Lx22k  
+drwx------ 3 root       root        60 июн  4 17:35 systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-po  
+wer-profiles-daemon.service-F0gmvK  
+drwx------ 3 root       root        60 июн  4 17:35 systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-sy  
+stemd-logind.service-EDUGtw  
+drwx------ 3 root       root        60 июн  4 17:35 systemd-private-dd2e0f95bfbd4571ae15a765c8a82065-up  
+ower.service-QTEDbw  
+-rw------- 1 silverhorn silverhorn 100 июн  4 17:35 xauth_lkEnxp
+
