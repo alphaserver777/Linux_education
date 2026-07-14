@@ -1,0 +1,20 @@
+(silverhorn㉿silverhorn)-[~]
+└─$ cd /usr/bin         
+                                                                                                       
+┌──(silverhorn㉿silverhorn)-[/usr/bin]
+└─$ cd /usr    
+                                                                                                       
+┌──(silverhorn㉿silverhorn)-[/usr]
+└─$ cd bin 
+                                                                                                       
+┌──(silverhorn㉿silverhorn)-[/usr/bin]
+└─$ cd usr
+cd: Нет такого файла или каталога: usr
+                                                                                                       
+┌──(silverhorn㉿silverhorn)-[/usr/bin]
+└─$ cd .. 
+                                                                                                       
+┌──(silverhorn㉿silverhorn)-[/usr]
+└─$ cd bin
+
+Абсолютный путь пишется от / , а относительный от текущей директории
